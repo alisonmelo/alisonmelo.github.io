@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(127, 137, 150);
+}
+
+.primary {
+    background: white;
+    justify-content: center;
+}
+
+header {
+    margin-top: 25px;
+    margin-left: 55px;
+    display: flex;
+    align-items: center;
+}
+
+.img-header {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.txt-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.main {
+    width: 650px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.main h2 {
+    font-size: 20px;
+    color: #19304F;
+    margin-top: 30px;
+}
+
+.main p {
+    font-size: 18px;
+    color: #19304F;
+    line-height: 18px;
+    margin-top: 20px;
+}
+
+.main ul {
+    padding-left: 11px;
+}
+
+.main li {
+    line-height: 25px;
+    margin-top: 20px;
+    list-style: disc;
+    margin-bottom: 5px;
+}
+
+
+/* lado*/
+
+.secondary {
+    background: #19304F;
+    color: white;
+}
+
+.secondary div ul {
+    list-style: none;
+}
+
+.contact {
+    padding-top: 120px;
+    padding-left: 20px;
+    width: 300px;
+    margin-right: 55px;
+}
+
+.social {
+    display: flex;
+}
+
+.social li a {
+    display: inline-block;
+    padding: 10px;
+}
+
+.social li a img {
+    width: 28px;
+}
+
+.skills {
+    padding-top: 120px;
+    padding-left: 20px;
+    width: 200px;
+}
+
+.skills ul li {
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+footer {
+    text-align: center;
+}
